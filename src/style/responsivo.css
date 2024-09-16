@@ -29,4 +29,43 @@
     list-style: none;
     text-align: center;
   }
+
+/* home */
+@media screen and (max-width: 1170px){
+  #home{
+    min-height: 100%;
+    padding-top: 0px;
+  }
+
+  #banner,
+  #banner img,
+  #home .shape{
+    display: none;
+  }
+
+  #cta{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
 }
+
+@media screen and (max-width: 450px){
+  #phone_button button{
+    display: none;
+  }
+
+  #cta_buttons {
+    display: block;
+  }
+  #cta_buttons a{
+    margin: 1rem;
+  }
+  
+
+
+  
+}
+
+}
+

@@ -28,6 +28,7 @@
 #cta_buttons{
     display: flex;
     gap: 24px;
+    font-size: 15px;
 }
 
 #cta_buttons a{
@@ -68,7 +69,8 @@
     width: 50%;
     height: 100%;
     position: absolute;/*ln 4*/
-    background-color: #ffe8b4;
+    /*background-color: #ffe8b4;*/
+    background-color: #f6e3b743;
     border-radius: 40% 30% 0% 20%;
     top: 0;
     right: 0;
