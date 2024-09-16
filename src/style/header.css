@@ -1,0 +1,39 @@
+header {
+  width: 100%;
+  padding: 28px 8%;
+}
+
+header #navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header #navbar #nav_logo {
+  font-size: 24px;
+  color: #e9a209;
+}
+
+header #navbar #nav_list {
+  display: flex;
+  gap: 48px;
+}
+
+header #navbar .nav-item a {
+  color: #1d1d1dad;
+  font-weight: 600;
+}
+
+header #navbar #nav_list .nav-item.active a{ /****/
+  color: #1d1d1d;
+  border-bottom: 3px solid #ffe100;
+}
+
+#navbar #mobile_btn{ /*esconde o icone 3linhas*/
+  display: none;
+}
+
+#mobile_menu{
+  display: none;
+}
