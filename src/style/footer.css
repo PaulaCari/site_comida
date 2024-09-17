@@ -1,5 +1,5 @@
 footer{
-    background-color: #ffe8b4;
+    background-color: var(--color-primary2);
 }
 footer img{
     width: 100%;
@@ -13,7 +13,7 @@ footer img{
 }
 
 #copyright{
-    color: #1d1d1d;
+    color: var(--color-neutral-9);
     font-weight: 500;
 
 }
