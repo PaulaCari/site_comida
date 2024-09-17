@@ -88,6 +88,41 @@
 
 }
 
+/* Testimonials */
+@media screen and (max-width: 1170px){
+  #testimonials{
+    flex-direction: column;
+  }
+
+    #testimonials_chef {
+      width: 25%;
+      /*display: none;*/
+    }
+    #testimonials .section-subtitle{
+      text-align: center;
+      font-size: 2.5rem;
+    }
+
+    #testimonials_content{
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #testimonials .section-subtitle {
+      font-size: 1.5rem;
+    }
+  .feedback{
+    flex-direction: column;
+  }
+  #testimonials_content {
+    width: 100%;
+  }
+}
+
 
 
 }
